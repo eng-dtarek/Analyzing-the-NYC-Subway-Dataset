@@ -24,8 +24,8 @@ def entries_histogram(turnstile_weather):
     https://www.dropbox.com/s/meyki2wl9xfa7yk/turnstile_data_master_with_weather.csv
     '''
     plt.figure()
-    turnstile_weather[turnstile_weather['rain']==0]['ENTRIESn_hourly'].hist(label='No Rain',bins=100)
-    turnstile_weather[turnstile_weather['rain']==1]['ENTRIESn_hourly'].hist(label='Rain',bins=100)
+    turnstile_weather[turnstile_weather['rain']==0]['ENTRIESn_hourly'].hist(label='No Rain',bins=100,range=[0,15000])
+    turnstile_weather[turnstile_weather['rain']==1]['ENTRIESn_hourly'].hist(label='Rain',bins=100,range=[0,15000])
     plt.title("Hourly Entries Histogram")
     plt.xlabel("Hourly Entries")
     plt.ylabel("Frequency")

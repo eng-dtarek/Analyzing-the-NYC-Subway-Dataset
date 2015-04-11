@@ -34,7 +34,7 @@ def predictions(weather_turnstile):
     # Your implementation goes here. Feel free to write additional
     # helper functions
     # 
-    x = weather_turnstile[['rain','fog','meantempi','precipi']]
+    x = weather_turnstile[['rain','meantempi']]
     dummy_units = pd.get_dummies(weather_turnstile['UNIT'], prefix='unit')
     dummy_hour = pd.get_dummies(weather_turnstile['Hour'], prefix='hour')
     y = weather_turnstile['ENTRIESn_hourly']
@@ -42,6 +42,7 @@ def predictions(weather_turnstile):
     X = X.join(dummy_hour)
     X = sm.add_constant(X)
     model = sm.OLS(y,X).fit()
+    print model.summary()
     predictions = model.predict(X)
     return predictions
 

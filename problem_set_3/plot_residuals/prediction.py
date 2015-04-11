@@ -16,8 +16,9 @@ def plot_residuals(dataframe, predictions):
     '''
 
     plt.figure()
-    (dataframe['ENTRIESn_hourly'] - predictions).hist(bins=200,label='residuals')
-    plt.title("Residuals Histogram using linear regression with gradient descent")
+    (dataframe['ENTRIESn_hourly'] - predictions).hist(bins=200,label='residuals',range=[-20000,20000])
+    # for the linear regression with gradient descent
+    plt.title("residuals between the observations and the predictions of the ridership")
     plt.xlabel("Residuals")
     plt.ylabel("Frequency")
     return plt
