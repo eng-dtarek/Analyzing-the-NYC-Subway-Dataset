@@ -6,11 +6,11 @@ This project aims to decide whether more people ride NYC subway when it is raini
 
 Mann–Whitney U test, using two-tail P value is used to analyze the NYC subway data.
 
-**Null hypothesis**: there is no significant difference between the average ridership in rainy & non-rainy hours.
+**Null hypothesis**: There is no significant difference between the average ridership in rainy & non-rainy hours.
 
 **P-critical value**: 0.05
 
-###Results
+### Results
 
 - U = 1924409167.0
 - P-value = 0.024*2=0.048
