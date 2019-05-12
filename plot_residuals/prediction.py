@@ -91,7 +91,7 @@ def predictions(dataframe):
     return predictions
 
 if __name__ == "__main__":
-    input_filename = "turnstile_data_master_with_weather.csv"
+    input_filename = "../turnstile_data_master_with_weather.csv"
     turnstile_master = pandas.read_csv(input_filename)
     prediction_values = predictions(turnstile_master)
 

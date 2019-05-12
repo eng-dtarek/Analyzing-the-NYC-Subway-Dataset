@@ -35,6 +35,6 @@ def entries_histogram(turnstile_weather):
 
 if __name__ == "__main__":
     image = "plot.png"
-    turnstile_weather = pandas.read_csv("turnstile_data_master_with_weather.csv")
+    turnstile_weather = pandas.read_csv("../turnstile_data_master_with_weather.csv")
     plt = entries_histogram(turnstile_weather)
     plt.savefig(image)

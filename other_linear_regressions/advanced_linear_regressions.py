@@ -54,7 +54,7 @@ def compute_r_squared(data, predictions):
     return r_squared
 
 if __name__ == "__main__":
-    input_filename = "turnstile_data_master_with_weather.csv"
+    input_filename = "../turnstile_data_master_with_weather.csv"
     turnstile_master = pd.read_csv(input_filename)
     predicted_values = predictions(turnstile_master)
     r_squared = compute_r_squared(turnstile_master['ENTRIESn_hourly'], predicted_values) 

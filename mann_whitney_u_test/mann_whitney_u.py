@@ -19,7 +19,7 @@ def mann_whitney_plus_means(turnstile_weather):
     return with_rain_mean, without_rain_mean, U, p
 
 if __name__ == "__main__":
-    input_filename = "turnstile_data_master_with_weather.csv"
+    input_filename = "../turnstile_data_master_with_weather.csv"
     turnstile_master = pandas.read_csv(input_filename)
     student_output = mann_whitney_plus_means(turnstile_master)
 
