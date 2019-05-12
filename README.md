@@ -17,9 +17,13 @@ Analyzing NYC Subway Dataset to decide whether more people ride NYC subway when 
 ## Technologies
 
 - Python >= 2.7
+- Numpy
+- Pandas
+- Scipy
+- Statsmodels
+- Matplotlib
 
 ## Project Description
 
 The goal of the project is to detect any significant difference between the average ridership in rainy & non-rainy hours and quantify it if exists.
 First, I used Mann–Whitney U test that revealed a significant difference between the average ridership in rainy & non-rainy hours. Then, I developed a linear regression model that expected the ridership to be increased by 2.88 when it is raining if the other features are fixed. (for more details of the analysis process see this [document](https://github.com/eng-dtarek/NYC_Subway_Data_Analysis/blob/master/Analyzing%20the%20NYC%20Subway%20Dataset.pdf)).
-
