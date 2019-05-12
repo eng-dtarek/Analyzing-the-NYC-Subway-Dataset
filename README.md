@@ -34,5 +34,16 @@ First, I used Mann–Whitney U test that revealed a significant difference betwe
 2. Install the above technologies.
 3. Each folder handles part of the analysis process. for example "mann_whitney_u_test" applies a statistical test on the dataset and returns the mean number of entries with rain, the mean number of entries without rain, and the Mann-Whitney U statistic and p-value >> cd mann_whitney_u_test >> python mann_whitney_u.py
 
+## References
 
+- [https://bespokeblog.wordpress.com/2011/07/11/basic-data-plotting-with-matplotlib-part-3-histograms/](https://bespokeblog.wordpress.com/2011/07/11/basic-data-plotting-with-matplotlib-part-3-histograms/)
+- [https://flowingdata.com/2014/02/27/how-to-read-histograms-and-use-them-in-r/](https://flowingdata.com/2014/02/27/how-to-read-histograms-and-use-them-in-r/)
+- [https://help.plot.ly/make-a-histogram/](https://help.plot.ly/make-a-histogram/)
+- [https://www.itl.nist.gov/div898/handbook/pri/section2/pri24.htm](https://www.itl.nist.gov/div898/handbook/pri/section2/pri24.htm)
+- [https://en.wikipedia.org/wiki/Ordinary_least_squares](https://en.wikipedia.org/wiki/Ordinary_least_squares)
+- [https://ggplot2.tidyverse.org/reference/geom_bar.html](https://ggplot2.tidyverse.org/reference/geom_bar.html)
+- [https://dss.princeton.edu/online_help/analysis/interpreting_regression.htm](https://dss.princeton.edu/online_help/analysis/interpreting_regression.htm)
+- [http://people.duke.edu/~rnau/regintro.htm](http://people.duke.edu/~rnau/regintro.htm)
+- [https://stats.idre.ucla.edu/](https://stats.idre.ucla.edu/)
+- [https://www.graphpad.com/guides/prism/6/statistics/index.htm?one-tail_vs__two-tail_p_values.htm](https://www.graphpad.com/guides/prism/6/statistics/index.htm?one-tail_vs__two-tail_p_values.htm)
 
