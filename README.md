@@ -16,7 +16,7 @@ Analyzing NYC Subway Dataset to decide whether more people ride NYC subway when 
 
 ## Technologies
 
-- Python >= 2.7
+- Python 2.7
 - Numpy
 - Pandas
 - Scipy
